@@ -11,6 +11,11 @@ grep -v "banana" sample.txt
 echo
 
 echo "Unique lines"
+sort sample.txt | uniq
+
+echo
+
+echo "Word occurrences"
 sort sample.txt | uniq -c
 
 echo
